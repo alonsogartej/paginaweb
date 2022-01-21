@@ -1,0 +1,49 @@
+*{box-sizing: border-box; margin: 0; font-family: arial,sans-serif;}
+
+nav{background-color: red; display: flex;justify-content: space-around; padding:10px ;}
+
+nav a{color: white; text-decoration: none;text-shadow: 3px 3px 3px black;}
+
+nav a:hover{color: yellow; font-weight: bold;}
+
+header{background-image: url(https://www.ulatina.ac.cr/sites/default/files/inline-images/arquitectura-blog.jpeg);
+ padding: 50px; background-repeat: no-repeat;background-size: cover; text-align: center; 
+ display: flex; justify-content: center; align-items: center; text-shadow: 3px 3px 3px black;}
+
+header h1{color: yellow;}
+
+header h2{color: white;}
+
+#servicios{background-color: lightblue;}
+
+.titulo{color: orange; font-style: italic; text-align: center; text-shadow: 3px 3px 3px black; padding: 10px;}
+
+#contenedor-servicios{display: flex; justify-content: space-around;}
+
+#izquierda,#derecha{width: 40%;}
+
+p{margin-bottom: 10px;}
+
+.obra{border: 2px solid red; width: 26%; margin-bottom: 30px;}
+
+.obra img{width: 100%;}
+
+#contenedor-obras{display: flex; justify-content: space-around; align-items: center; flex-wrap: wrap;}
+
+footer{background-color: grey; color: white; text-align: center; padding-top: 20px; padding: 20px;}
+
+#contenedor-info{border-top: 7px solid white; padding: 20px; display: flex; justify-content: space-around;}
+
+#enlaces h2{font-weight: boold;}
+
+#contacte{border: 7px solid red; padding: 10px;}
+
+#contacto form{background-color: lightgreen; border-radius: 10px; padding: 20px;}
+
+#contacto{padding-left: 100px; margin-bottom: 10px; padding-right: 100px; padding-bottom: 20px;}
+
+#contacto input{width: 100%; padding: 10px; border-radius: 5px; margin-bottom: 10px; border: 1px solid lightgreen;
+
+font-size: 1.2em;}
+
+#contacto label{width: 20%;display: block; font-weight: bold; color: brown; font-size: 1.2em;}
